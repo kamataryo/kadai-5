@@ -1,0 +1,30 @@
+<html>
+    <meta charset="utf-8">
+    <style>
+        button {
+            font-size: 25px;
+            color: white;
+            background: pink;
+
+        } 
+    </style>
+    <body>
+        <p>おみくじプログラム</p>
+        <button id="omikuji">おみくじを引いてみる</button>
+
+        <script>
+            const omikuji = document.getElementById('omikuji')
+            
+            omikuji.addEventlistener('click' , () => {
+                const luck = Math.randam()
+                if(luck > 0.8) {
+                    alert('大吉！')
+                }　else if (luck > 0.4){
+                    alert('中吉')
+                } else {
+                    alert('凶')
+                }
+            })
+        </script>
+    </body>
+</html>
