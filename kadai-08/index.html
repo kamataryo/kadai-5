@@ -15,8 +15,8 @@
         <script>
             const omikuji = document.getElementById('omikuji')
             
-            omikuji.addEventlistener('click' , () => {
-                const luck = Math.randam()
+            omikuji.addEventListener('click' , () => {
+                const luck = Math.random()
                 if(luck > 0.8) {
                     alert('大吉！')
                 }　else if (luck > 0.4){
