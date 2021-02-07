@@ -12,7 +12,7 @@
     "cowsay": "^1.4.0"
   },
   "devDependencies": {
-    "cli": "^1.0.1",
+    "webpack-cli": "^4",
     "webpack": "^4.46.0"
   }
 }
